@@ -326,12 +326,14 @@ main.awards section .section-title h2{
     width: 100%;
     height: 50%;
     opacity: .9;
-    filter: blur(3px);
+    filter: blur(6px);
+    transition: 0.5s;
+    object-fit: fill;
 }
 .page-title{
     position: absolute;
     z-index: 1;
-    top:25%;
+    top:13%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 4vw;
@@ -342,7 +344,7 @@ main.awards section .section-title h2{
 }
 #learn-more{
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: block;
@@ -354,7 +356,7 @@ main.awards section .section-title h2{
     background: rgba(0, 0, 0, 0.678);
     border-radius: 100%;
     transition: 0.2s;
-    z-index: 9;
+    z-index: 1;
 }
 #learn-more:hover{
     background: rgba(255, 255, 255, 0.678);

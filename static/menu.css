@@ -18,7 +18,7 @@
     left: 0;
     right: 0;
     bottom: 0;*/
-    z-index: 1;
+    z-index: 2;
     /*transition: all 0.6s ease; */
     clip-path: circle(100px at 99% 1%);
     -webkit-clip-pzth:circle(100px at 99% 1%);
@@ -43,7 +43,7 @@
     font-size: 2vw;
     background: #000;
     border-radius: 24px; 
-    z-index: 9995;
+    z-index: 3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: auto;
 }
