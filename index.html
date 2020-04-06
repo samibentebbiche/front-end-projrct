@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/9d346ecb71.js" crossorigin="anonymous"></script>
     <title>STEAVEN HAWKING - home</title>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="static/menu.css">
+    <link rel="stylesheet" href="static/footer.css">
+    <audio></audio>
     <style>
        
     </style>
@@ -29,12 +31,14 @@
                     </div>
                     <div class="menu">
                         <ul>
+                            <li class="title-menu">menu</li>
                             <li><a href="#"><img class="svg" src="static/img/personel.svg">
                                 Personal life</a></li>
-                            <li><a href="#"><img class="svg" src="static/img/carrer.svg">career</a></li>
-                            <li><a href="#"><img class="svg" src="static/img/awards.svg">Awards</a></li>
-                            <li><a href="#"><img class="svg" src="static/img/gallery.svg">Gallery</a></li>
-                            <li><a href="#"><img class="svg" src="static/img/future.svg">future</a></li>
+                            <li id="one"><a href="#"><img class="svg" src="static/img/carrer.svg">career</a>
+                            </li>
+                            <li id="two"><a href="#"><img class="svg" src="static/img/awards.svg">Awards</a></li>
+                            <li id="three"><a href="#"><img class="svg" src="static/img/gallery.svg">Gallery</a></li>
+                            <li id="four"><a href="#"><img class="svg" src="static/img/future.svg">future</a></li>
                         </ul>
                     </div>                    
                 </div>
@@ -52,34 +56,88 @@
                     " <br>prof stephen hawkig
                     </p>
                 </div>
-            <div class="slides ">
-                <input type="radio" name="r" id="r1" checked>
-                <input type="radio" name="r" id="r2">
-                <input type="radio" name="r" id="r3">
-                <input type="radio" name="r" id="r4">
-               <div class="slide s1">
-                    <img src="static/img/photo1.jpg" alt="">
-                </div>
+                <div class="slides ">
+                    <input type="radio" name="r" id="r1" checked>
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <input type="radio" name="r" id="r4">
                 <div class="slide s1">
-                        <img src="static/img/photo2.jpg" alt="">
+                        <img src="static/img/photo1.jpg" alt="">
+                    </div>
+                    <div class="slide s1">
+                            <img src="static/img/photo2.jpg" alt="">
+                    </div>
+                    <div class="slide s1">
+                            <img src="static/img/photo3.jpg" alt="">
+                    </div>
+                    <div class="slide s1">
+                            <img src="static/img/photo0.jpg" alt="">
+                    </div>  
+                
                 </div>
-                <div class="slide s1">
-                        <img src="static/img/photo3.jpg" alt="">
+                <div class="navigation">
+                    <label for="r1" class="bar"></label>
+                    <label for="r2" class="bar"></label>
+                    <label for="r3" class="bar"></label>
+                    <label for="r4" class="bar"></label>
                 </div>
-                <div class="slide s1">
-                        <img src="static/img/photo0.jpg" alt="">
-                </div>  
-               
-            </div>
-            <div class="navigation">
-                <label for="r1" class="bar"></label>
-                <label for="r2" class="bar"></label>
-                <label for="r3" class="bar"></label>
-                <label for="r4" class="bar"></label>
-            </div>
         </div>
     </header>
+    <nav class="inside">
+        <img class="arrow" src="static/img/arraow.svg" alt="">
+        <img class="arrow-right" src="static/img/arrow_right.svg" alt="">
+        <div class="inside-menu">
+            <ul>
+                <li><a href="#">aaaaa</a></li>
+                <li><a href="#">aaaaa</a></li>
+                <li><a href="#">aaaaa</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="index">
+        <section class="section-prg">
+            <figure class="png-img">
+                <img src="static/img/image.png"> 
+            </figure>
+            <div class="prg" id="first-prg">
+               <h3>Qui rst steaven hawking ?</h3>
+                <p>dlmv,mdkknvmknsvkfvnknkfnsvkfk</p>
+            </div>
+        </section>
+        
+    </main>
     
     
+    <footer>
+            <div class="social-media">
+                <ul>
+                    <li id="link-fb"><a class=""  href="#">
+                        <img class="sm" src="static/img/facebook.svg"></a></li>
+                    <li id="link-insta"><a class=""  href="#">
+                        <img class="sm" src="static/img/instagram.svg"></a></li>
+                    <li  id="link-google" ><a class="btn" href="#">
+                        <img class="sm" src="static/img/google.svg"></a></li>
+                    <li id="link-youtube"><a class="btn" href="#">
+                        <img class="sm" src="static/img/youtube.svg"></a></li>
+                    <li id="link-twitter"><a class="btn" href="#">
+                        <img class="sm" src="static/img/twitter.svg"> </a></li>
+                </ul>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#">
+                        about the web site</a></li>
+                    <li> <a href="#">
+                        about us</a></li>
+                </ul>
+            </div>
+           <address>
+                <ul>
+                    <li>Email : <a href="#"></a></li>
+                    <li>Addresse : <a href="#">s</a></li>
+                    <li>numéro : </li>
+                </ul>
+            </address>
+    </footer>
 </body>
 </html> 
