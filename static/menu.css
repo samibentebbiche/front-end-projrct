@@ -1,0 +1,217 @@
+#element{
+    display: none;
+}
+/*.n{
+   width: 100px;
+   height: 100px;
+}*/
+.page-menu{
+    /*display: none;*/
+    /*background:rgba(0, 0, 0, 0.5);*/
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+    z-index: 1;
+    /*transition: all 0.6s ease; */
+    clip-path: circle(100px at 99% 1%);
+    -webkit-clip-pzth:circle(100px at 99% 1%);
+    transition: clip-path 0.3s linear;
+   /* animation: 99s anime-menu ;*/
+}
+
+.menu{
+    height: 50%;
+    
+}
+.page-menu ul{
+    transition: 0.1s;
+    margin-top: 10%; 
+    margin-left: 28%; 
+    margin-right: 30%; 
+    margin-bottom: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 2%;
+    font-weight: bolder; 
+    font-size: 2vw;
+    background: #000;
+    border-radius: 24px; 
+    z-index: 9995;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+}
+.page-menu li {
+   position:relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    list-style: none;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.page-menu a{
+    /*height: 50%;*/
+    display: inline-block;
+    width: 60%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    transition: 0.1s;
+
+}
+
+.page-menu .menu a:hover{
+    color: black;
+    background: white;
+}
+.icon-menu{
+    position: fixed;
+    right: 10px;
+    color: white;
+    text-align: right;
+    margin: 15px 15px 0 0;
+    font-size: 40px;
+    z-index: 9999;
+    transition: .3s;
+}
+.icon-menu label{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    border-radius: 0 0 0 100px;
+    text-align: center;
+    padding-top:20px;
+    padding-right: -5px;
+    top: -10px;
+    cursor: pointer;
+    right: -25px;
+
+    
+}
+.icon-menu:hover{
+    font-size: 50px;
+}
+#element:checked + nav .page-menu{
+    clip-path:circle(1900px at 98% 2%);
+    -webkit-clip-pzth:circle(1900px at 98% 2%);
+    /*display: block; */
+}
+#element:checked ~ .main-head{
+   opacity: 0.3;
+   filter: blur(10px);
+}
+.page-menu .background{
+    position: absolute;
+}
+video{
+    opacity: 0.5;
+    filter: blur(2px);
+}
+.background{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.svg{
+    display: none;
+    width: 2vw;
+    height: 30px;
+    margin-right:25px; 
+    margin-top: 10px; 
+    color: white;
+}
+a:hover .svg{
+    display: inline;
+}
+.page-menu .menu .title-menu{
+    font-size: 60px;
+    height: 50px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: black;
+    background: white;
+
+}
+nav.inside{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 3.5%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.603);
+    z-index: 9990;
+    overflow: hidden;
+    transition: 0.3s linear;
+    border-radius: 0 100% 100% 0; 
+}
+nav .inside-menu ul{
+    margin: 0;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%,-50%);
+    left:100%;
+    width: 60%;
+    transition: 0.5s ease-out;
+}
+
+nav .inside-menu li{
+    margin: 10vh 0;
+    list-style: none;
+    display: block;
+    transition: 1s linear;
+}
+nav .inside-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    transition: 0.1s linear;
+}
+nav.inside:hover {
+    width: 15%;
+}
+nav:hover .inside-menu ul{
+    left:62%;
+}
+nav:hover .inside-menu ul li{
+    left:60%;
+    border-bottom: 3px green solid;
+    /*box-shadow: 0 5px 3px green;*/
+}
+nav .inside-menu li a:hover{
+    font-size: 2.3vw;
+}
+nav.inside img.arrow{
+    position: absolute;
+    top:45%;
+    float: right;
+    width: 2vw;
+    color: white;
+}
+nav.inside:hover img.arrow{
+    display: none;
+}
+nav.inside img.arrow-right{
+    display: none;
+    position: absolute;
+    top:45%;
+    float: right;
+    width: 2vw;
+    color: white;
+}
+nav.inside:hover img.arrow-right{
+    display: block;
+}

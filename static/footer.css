@@ -1,0 +1,143 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0;
+    padding-bottom: 0;
+    display: block;
+    position: absolute;
+    margin-bottom: 0px;
+}
+footer.awards{
+    top: 8500px;
+}
+.social-media{
+    /*position: absolute;
+    top : 5%;*/
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.social-media ul{
+    margin: 0px 0;
+    padding: 0;
+    text-align: center;
+}
+.social-media ul li{
+    
+    display: inline-block;
+    margin: 20px 3%;
+}
+.social-media ul li a{
+    position: absolute;
+    width: 4%;
+    height: 6vh;
+    border-radius: 100%;
+    color: #272727;
+    background: white;
+    overflow: hidden;
+}
+
+.social-media ul li#link-fb a:hover{
+    
+    background: rgb(16, 95, 131);
+}
+
+.social-media ul li#link-insta a:hover{
+   
+    background: rgb(180, 34, 185);
+}
+.social-media ul li#link-google a:hover{
+    
+    background: rgb(26, 228, 26);
+}
+.social-media ul li#link-youtube a:hover{
+    
+    background: rgb(238, 11, 11);
+}
+.social-media ul li#link-twitter a:hover{
+    
+    background: rgb(124, 205, 243);
+}
+.social-media ul li a:hover .sm{
+    width: 55%;
+    transition: 0.2s linear;
+}
+.social-media ul li#link-fb a:hover .sm{
+    width: 40%;
+    transition: 0.2s linear;
+}
+.footer-menu{
+    /*position: absolute;
+    top:8%;*/
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+.footer-menu ul{
+    margin:0;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+    margin: 0;
+    width: 300px;
+    height: 100%;
+
+}
+.footer-menu ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+     text-transform: uppercase;
+     text-decoration: none;
+     outline: none;
+     padding: 1% 4%;
+     border-radius: 10%;
+     transition: 0.5;
+}
+.footer-menu ul li a:hover{
+    background: rgb(49, 21, 75);
+    box-shadow: 0 0 20px rgb(49, 21, 75),0 0 80px rgb(49, 21, 75),0 0 80px rgb(49, 21, 75);
+    font-size: 18px;
+}
+address{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding-bottom:5vh; 
+}
+address ul{
+    margin: 30px 0;
+    padding: 0;
+    text-align: center;
+}
+address ul li{
+    display: inline-block;
+    margin: 0 30px;   
+}
+address ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+     text-transform: uppercase;
+     text-decoration: none;
+     outline: none;
+}
+.sm{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
